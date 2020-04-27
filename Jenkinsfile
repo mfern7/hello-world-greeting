@@ -1,5 +1,4 @@
 node('master') {
-
 	stage('Poll') {
 	    scm checkout
 	}
